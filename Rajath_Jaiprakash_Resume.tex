@@ -1,0 +1,133 @@
+\documentclass[a4paper,10pt]{article}
+% Essential Packages
+\usepackage[scale=0.9]{geometry}           % Page layout
+\usepackage{lmodern}                       % Modern font
+\usepackage[dvipsnames]{xcolor}            % Colors
+\usepackage{hyperref}                      % Links
+\usepackage{enumitem}                      % List customization
+\usepackage{fontawesome5}                  % Icons
+\usepackage{titlesec}                      % Section formatting
+% Colors and Hyperref Setup
+\definecolor{text}{RGB}{38, 38, 38}          % #262626 – deep gray
+\definecolor{heading}{RGB}{45, 62, 80}       % #2D3E50 – Slate Gray
+\definecolor{linkcolour}{RGB}{60, 90, 120}   % #3C5A78 – cool steel blue
+\color{text}
+\definecolor{black}{RGB}{0, 0, 0}
+%\definecolor{linkcolour}{rgb}{0.2,0.23,0.4}
+% \definecolor{linkcolour}{rgb}{0,0.2,0.8}
+% \definecolor{heading}{rgb}{0,0.2,0.6}
+\hypersetup{
+    colorlinks,
+    breaklinks,
+    urlcolor=linkcolour,
+    linkcolor=linkcolour
+}
+% Section Formatting
+\titleformat{\section}
+    {\large\bfseries\raggedright\color{heading}}
+    {}{0em}{}[\titlerule]
+%
+% Define a command for black bold text
+\newcommand{\bb}[1]{\textcolor{black}{\textbf{#1}}}
+%
+%
+%
+\begin{document}
+\pagestyle{empty}
+%
+% Header
+\centerline{
+  \hfill\Huge\textbf{ Rajath Jaiprakash }\hfill
+}
+\smallskip
+\noindent
+%
+\begin{center}
+\begin{tabular}{c|c|c|c|c}
+    \href{https://github.com/rajathjn}{\faGithub \ rajathjn}  &     
+    \href{https://linkedin.com/in/rajath-jaiprakash}{\faLinkedin \ rajath-jaiprakash}  &     
+    \href{https://rajathjn.github.io/}{\faGlobe \ Portfolio}  &     
+    \href{mailto:rajathjnx@gmail.com}{\faEnvelope \ rajathjnx@gmail.com}  &     
+    \href{tel:+919900852849}{\faMobile \ +91-9900852849}     
+    \\
+\end{tabular}
+\end{center}
+\vspace{-2em}
+%
+%
+% Summary
+\section{Summary}
+\hspace{0.5em} Site Reliability Engineer - 2 with around \bb{3 years} of specialized experience in \bb{Infrastructure Automation}, \bb{CI/CD pipelines}, and \bb{Logging/Monitoring pipelines}. Delivered \bb{50\%} reduction in manual operations by designing and implementing \bb{20+ Ansible} roles across production environments. Demonstrated expertise in troubleshooting complex infrastructure issues by reducing system downtime by \bb{30\%} through enhanced observability solutions.
+\vspace{-1em}
+%
+%
+% Skills
+\section{Skills}
+\begin{tabular}{c | l}
+    Programming 
+    & 
+    \bb{Python}, \bb{Bash Scripting}, \bb{C++}, \bb{Powershell}, \bb{CI/CD (GitHub Actions/Jenkins)}
+    \\
+    
+    Tools 
+    & 
+    \bb{Ansible}, \bb{Docker}, \bb{Kubernetes}, \bb{Elastic Stack (ELK)}, \bb{InfluxDB}, \bb{Grafana}, \bb{Telegraf}, \bb{NagiosXI}
+    \\
+    
+    Certifications 
+    & 
+    \href{https://www.credly.com/badges/b8bd4107-0a3a-4aa9-a10f-0c117a829630/linked_in_profile}{\textbf{The Linux Foundation: LFS162}},
+    \href{https://www.linkedin.com/learning-login/continue?account=2141129&forceAccount=false&authModeName=Ping&authUUID=dT5I%2B%2FT%2BRJC20WcGq0Vodg%3D%3D&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fcertificates%2F835a5b0574e7e6ae41e2bbb804363de67c86d4239b3d6d61418ef15534d04ca6}{\textbf{Red Hat Certified Engineer (EX294)}}
+\end{tabular}
+\vspace{-1em}
+%
+%
+% Experience
+\section{Work Experience}
+\bb{ Akamai Technologies, Inc. \textbar\ Site Reliability Engineer 2 } \hfill \bb{Oct 2024 - Present}
+\begin{itemize}[nosep, leftmargin=2em, itemsep=3pt]
+    \item Architected end-to-end \bb{CI/CD pipelines} for our Access Border Routers by integrating it with our Simulator and custom deployment scripts, reducing deployment time by \bb{75\%} and reducing our downtime to just \bb{30 seconds}.
+    \item Engineered fault-tolerant system by developing \bb{Python} based auto-remediation scripts for \bb{8 critical services}, eliminating \bb{85\%} of previously manual recovery procedures and maintaining \bb{90\%} service availability.
+    \item Identified, Troubleshooted and Solved a Business critical compliance issue which impacted our \bb{6WIND VSRs}, across \bb{18 Distributed Edge sites}, in a time span of \bb{3 days}.
+\end{itemize}
+\medskip\bb{ Akamai Technologies, Inc. \textbar\ Site Reliability Engineer } \hfill \bb{July 2022 - Oct 2024}
+\begin{itemize}[nosep, leftmargin=2em, itemsep=3pt]
+    \item Improved our deployment workflow by crafting \bb{20+ Ansible roles} for automated configuration management, reducing deployment errors by \bb{65\%} and cutting rollout time from days to hours across \bb{4 environments}.
+    \item Executed the complex migration of \bb{18 production logging servers} by designing comprehensive transition plan and implementing parallel cutover strategy, maintaining \bb{100\%} service availability and processing \bb{250K+ daily transactions} without interruption.
+    \item Spearheaded DevOps knowledge sharing initiative by conducting \bb{6 technical workshops} for \bb{30+ engineers} over \bb{3 different time-zones}, resulting in \bb{40\%} fewer deployment-related incidents across development teams.
+    \item Transformed logging infrastructure by migrating and optimizing \bb{Elastic Stack} deployment for \bb{150GB+ of daily logs}, accelerating log search performance by \bb{300\%} and enabling real-time anomaly detection for \bb{20+ critical services}.
+    \item Revitalized monitoring system by implementing hierarchical alert structure in \bb{NagiosXI} and \bb{InfluxDB} for \bb{200+ nodes}, decreasing false positives and redundant alerts by \bb{70\%} and reducing mean time to identification from \bb{10 minutes} to \bb{30 seconds}, During my Internship.
+\end{itemize}
+\vspace{-1em}
+%
+%
+% Projects
+\section{Projects}
+\bb{\href{https://github.com/rajathjn/shorts_maker}{ClipForge - AI Driven Video Processing Pipeline}}
+\begin{itemize}[nosep, leftmargin=2em, itemsep=3pt]
+    \item Engineered an end-to-end local and open-source automated video generation pipeline by integrating \bb{WhisperX}, \bb{FFmpeg}, and \bb{AI agents} created using \bb{Langchain Python}. Project has received over \bb{77k+} impressions to date.
+    \item Constructed intelligent metadata generation system by leveraging \bb{AI-based text processing algorithms}, improving \bb{SEO optimization} and increasing content discoverability by \bb{40\%}. Created the automated testing flow by building \bb{CI/CD pipelines} using \bb{Github Actions}.
+    \item Devised portable containerized solution by implementing \bb{Dockerized} deployment workflow. Integrated real-time monitoring system by developing \bb{Discord notification services}, providing instantaneous updates on processing status for \bb{100+ daily video operations}.
+\end{itemize}
+\vspace{-1em}
+%
+%
+% Education
+\section{Education}
+\bb{ PES University, Bangalore }
+\begin{itemize}[nosep, leftmargin=2em, itemsep=3pt]
+    \item B.Tech in \bb{Electronics and Communication Engineering} ( \bb{GPA: 8.99} ) \hfill \bb{2018 - 2022}
+    \item B.Tech Minors in \bb{Computer Science and Engineering} \hfill \bb{2018 - 2022}
+\end{itemize}
+\vspace{-1em}
+%
+%
+% Extras
+\section{Extras}
+\bb{IEEE Paper: \href{https://ieeexplore.ieee.org/document/9865797}{Analog Front End Modelling of Miniature CMOS Image Sensor}}
+\begin{itemize}[nosep, leftmargin=2em, itemsep=3pt]
+    \item Led a cross-functional research team by coordinating circuit design and simulation efforts, resulting in the publication of an innovative medical imaging technology with potential applications in minimally invasive procedures with a power consumption of just \bb{4.8 mW}.
+\end{itemize}
+%
+%
+\end{document}
