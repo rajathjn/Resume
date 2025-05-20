@@ -1,8 +1,6 @@
 basic:
   name: "Rajath Jaiprakash"
   details:
-  # optionally add icons to websites from fontawesome - http://mirrors.ctan.org/fonts/fontawesome/doc/fontawesome.pdf
-  # Maximum Only 5 websites/details are supported
     - name: "rajathjn"
       value: "https://github.com/rajathjn"
       symbol: "faGithub"
@@ -21,49 +19,55 @@ basic:
 
 # summary will be overwritten by the LLM. Leave blank.
 summary: >
-  Site Reliability Engineer with a focus on automation and operational efficiency. 
-  Built nearly \textbf{20+} Ansible roles and orchestrated their deployment. 
-  Planned and migrated, \textbf{15+} machines in production Data Centers for customer traffic processing. 
-  Driven to lead impactful projects with strong problem-solving skills and technical expertise. 
-  Top performer with an average Performance Objective score of \textbf{4.28}.
-  Highly motivated and results-driven Site Reliability Engineer (SRE) 
-  with a strong background in automation, observability, and infrastructure optimization. 
-  Experienced in designing and implementing automated solutions to improve operational efficiency and reduce toil.
-  Passionate about building scalable and resilient systems while advocating for automation-first approaches. 
-  Adept at collaborating across teams to enhance system reliability, monitoring, and performance.
-  Site Reliability Engineer (SRE) with expertise in automation, infrastructure optimization, and observability. 
-  Skilled in building and deploying self-healing systems, reducing manual toil, and enhancing system reliability through automation. 
-  Proficient in Terraform, Ansible, Prometheus, Grafana, and Splunk, with a strong focus on scalability and performance improvements. 
-  Passionate about problem-solving, incident management, and process automation to drive operational excellence.
-  Site Reliability Engineer (SRE) with a strong background in automation, monitoring, and performance optimization. 
-  Experienced in developing self-healing systems, improving observability, and implementing scalable infrastructure solutions.
-  Proficient in Terraform, Ansible, Kubernetes, Prometheus, Grafana, and Splunk. 
-  Passionate about reducing manual toil through automation, enhancing incident response efficiency, and ensuring high system availability.
-
+  Site Reliability Engineer II with around 3 years of specialized experience in Infrastructure Automation, CI/CD, and Logging/Monitoring pipelines. 
+  Achieved 50% reduction in manual operations by designing and implementing 20+ Ansible roles across production environments. 
+  Demonstrated expertise in troubleshooting complex infrastructure issues by reducing system downtime by 30% through enhanced observability solutions.
+  Site Reliability Engineer (SRE) with 3+ years of progressive experience in automation, observability, and infrastructure optimization.
+  Built 20+ Ansible roles and orchestrated deployments, leading to significant reductions in manual toil and deployment times.
+  Led migrations of 15+ production machines and large-scale logging/monitoring systems (ELK, syslog-ng, NagiosXI), ensuring operational continuity and high availability.
+  Expert in Terraform, Ansible, Prometheus, Grafana, Splunk, and Kubernetes, with a strong focus on scalable, resilient, and self-healing systems.
+  Recognized as a top performer (avg. rating 4.5/5), trusted to lead high-impact, cross-functional projects, and mentor peers.
+  Passionate about automation-first approaches, incident management, and continuous improvement to drive operational excellence.
 
 skills:
   programming:
     - "Python"
     - "C++"
-    - "Linux Shell scripting/BASH"
-    - "Powershell scripting"
+    - "Linux Shell Scripting/BASH"
+    - "Powershell Scripting "
     - "Power Automate"
   tools:
     - "Ansible"
     - "Docker"
-    - "Elastic Stack"
+    - "Kubernetes"
+    - "Elastic Stack (ELK)"
+    - "Prometheus"
+    - "Grafana"
     - "TIG Stack"
     - "NagiosXI"
     - "Syslog-ng"
     - "Bind9"
     - "Git"
+    - "Jenkins"
+    - "Rundeck"
+    - "Loki"
+    - "InfluxDB"
+    - "HAProxy"
+    - "Keepalived"
+    - "Netbox"
+    - "AWS S3"
+    - "OpenBSD"
+    - "PagerDuty"
+    - "Confluence"
+    - "Jira"
+    - "Slack"
   certifications:
     - name: "Problem Solving Certification (Intermediate)"
       link: "https://www.hackerrank.com/certificates/aaed0ced0424"
-    - link: "https://www.credly.com/badges/b8bd4107-0a3a-4aa9-a10f-0c117a829630/linked_in_profile"
-      name: "The Linux Foundation: LFS162"
-    - link: "https://www.linkedin.com/learning-login/continue?account=2141129&forceAccount=false&authModeName=Ping&authUUID=dT5I%2B%2FT%2BRJC20WcGq0Vodg%3D%3D&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fcertificates%2F835a5b0574e7e6ae41e2bbb804363de67c86d4239b3d6d61418ef15534d04ca6"
-      name: "Red Hat Certified Engineer (EX294)"
+    - name: "The Linux Foundation: LFS162"
+      link: "https://www.credly.com/badges/b8bd4107-0a3a-4aa9-a10f-0c117a829630/linked_in_profile"
+    - name: "Red Hat Certified Engineer (EX294)"
+      link: "https://www.linkedin.com/learning-login/continue?account=2141129&forceAccount=false&authModeName=Ping&authUUID=dT5I%2B%2FT%2BRJC20WcGq0Vodg%3D%3D&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fcertificates%2F835a5b0574e7e6ae41e2bbb804363de67c86d4239b3d6d61418ef15534d04ca6"
 
 work_experience:
   - company: "Akamai Technologies, Inc."
@@ -71,47 +75,57 @@ work_experience:
     duration: "Oct 2024 - Oct present"
     exp_time: 0.5 # years of experience
     responsibilities:
-      - Led automation initiatives to reduce manual toil, improve incident response times, and streamline operational workflows.
-      - Developed and deployed observability solutions using Prometheus, Grafana, and Splunk to enhance monitoring and alerting capabilities.
-      - Automated infrastructure provisioning and configuration management using Terraform and Ansible.
+      - Led automation initiatives to reduce manual toil, improve incident response, and streamline operational workflows.
+      - Developed and deployed observability solutions using Prometheus, Grafana, and Splunk.
+      - Automated infrastructure provisioning and configuration management with Terraform and Ansible.
       - Optimized CI/CD pipelines, reducing deployment times and increasing release efficiency.
-      - Designed and implemented self-healing and auto-remediation workflows, improving system uptime and reliability.
-      - Worked closely with cross-functional teams to ensure high availability and performance of production environments.
-      - After reorganization, transitioned into an operations-focused role but continued to advocate for automation-driven improvements.
+      - Designed and implemented self-healing and auto-remediation workflows, improving system uptime.
+      - Led DE to VDC logging migration: engineered syslog-ng pipelines with failover, handling 2000+ messages/sec, integrated with Grafana dashboards and Telegraf.
+      - Architected log server aggregation, implemented cleanup jobs, and ensured reliable log delivery across distributed sites.
+      - Investigated and integrated cloud observability solutions (Loki, Logstash plugin), building automation for reproducible migration paths.
+      - Upgraded and tuned Elastic Stack clusters, implemented Index Lifecycle Management, optimized resources, and reduced system errors.
+      - Overhauled NagiosXI monitoring: migrated to new repo, added Ubuntu 22.04 support, reduced false alerts, and automated deployment.
+      - Consolidated and centralized Ansible automation, migrated legacy roles/scripts, and enabled centralized deployment.
+      - Provided BAU support: resolved incidents, led proxy and RSX node migrations, supported Jenkins automation, and collaborated across teams.
+      - Authored documentation, conducted technical workshops, and mentored peers on automation and monitoring best practices.
+      - Recognized for rapid learning, innovation, and cross-team leadership.
+
   - company: "Akamai Technologies, Inc."
     position: "Site Reliability Engineer"
     duration: "July 2022 - Oct 2024"
     exp_time: 2.5 # years of experience
     responsibilities:
-      - Migrated the machines in Prod and DEV environment, by implementing automated Ansible roles, reducing manual intervention by 50\\% and ensuring 100\\% operational continuity.
-      - Spearheaded the migration of Elastic Stack and Syslog-ng aggregator servers, ensuring 100\\% log integrity.
-      - Assisted multiple teams in resolving alerts, incidents, and role issues; By creating user-friendly documentation and automation scripts, improving efficiency by streamlining the process and reducing downtime by 20\\%.
-      - Reorganized NagiosXI configurations, ensuring comprehensive monitoring of all nodes.
-      - Created the Jenkins automation for QA team, which was used to test APNs for 5 different mobile networks over 20 different sites.
-      - Spearheaded automation initiatives to minimize manual intervention and improve operational efficiency, reducing toil by automating repetitive tasks.
-      - Developed and enhanced observability frameworks, integrating Prometheus, Grafana, and Splunk to improve monitoring, alerting, and system visibility.
-      - Designed and implemented infrastructure-as-code solutions using Terraform and Ansible, ensuring consistency, scalability, and faster deployments.
-      - Optimized CI/CD pipelines, significantly reducing deployment times and enhancing release stability.
-      - Led efforts in incident management and auto-remediation, reducing downtime and improving system resilience.
-      - Collaborated with cross-functional teams to drive performance improvements, ensuring high availability and reliability of production environments.
-      - Transitioned to an operations-focused role due to company restructuring while continuing to advocate for automation-first approaches in daily workflows.
-      - Developed 10+ Ansible roles for installing and configuring programs, Automated routing to Management nodes, enabling connectivity and automation for Distributed sites.
-      - Enhanced and improved existing processes with Python and Ansible, optimizing workflow efficiency by 25\\%.
-      - Actively participated during network and service incidents. Leading to prompt action to help restore access to virtual machines and minimizing customer disruption.
-      - Engineered S3 bucket testing/log delivery and NagiosXI alert systems, ensuring consistent log delivery.
-      - Developed automated monitoring solutions using Prometheus and Grafana, improving alerting accuracy and incident detection.
-      - Spearheaded infrastructure automation with Terraform and Ansible, leading to more consistent and scalable deployments.
-      - Designed and implemented CI/CD pipeline enhancements, reducing deployment times and ensuring seamless releases.
-      - Played a key role in incident management, resolving critical system issues efficiently and contributing to post-mortem analyses for long-term improvements.
+      - Migrated production and DEV machines using automated Ansible roles, reducing manual intervention by 50% and ensuring operational continuity.
+      - Led migration of Elastic Stack and Syslog-ng aggregator servers, ensuring log integrity.
+      - Created user-friendly documentation and automation scripts, improving efficiency and reducing downtime by 20%.
+      - Reorganized NagiosXI configurations for comprehensive monitoring.
+      - Developed Jenkins automation for QA, enabling APN testing across multiple networks and sites.
+      - Enhanced observability frameworks with Prometheus, Grafana, and Splunk.
+      - Designed and implemented infrastructure-as-code with Terraform and Ansible.
+      - Optimized CI/CD pipelines, reducing deployment times and enhancing stability.
+      - Led incident management and auto-remediation efforts, reducing downtime.
+      - Developed 10+ Ansible roles for program installation/configuration and automated routing to management nodes.
+      - Improved processes with Python and Ansible, optimizing workflow efficiency by 25%.
+      - Engineered S3 bucket testing/log delivery and NagiosXI alert systems.
+      - Automated configuration management: developed 20+ Ansible roles, reducing deployment errors and rollout time.
+      - Led complex migrations of ELK clusters and logging servers, maintaining service availability.
+      - Designed and deployed high-availability load balancers (Keepalived, HAProxy).
+      - Engineered DMCA CGNAT logs-to-analytics pipeline: automated log parsing and delivery to S3 and Elasticsearch.
+      - Enhanced monitoring for 200+ nodes: implemented hierarchical alerting, reduced false positives by 70%.
+      - Authored documentation and led technical workshops, reducing deployment-related incidents by 40%.
+      - Upgraded and migrated authoritative DNS automation: added reverse DNS, Netbox integration, Rundeck scheduling, Slack alerting, and Grafana dashboards.
+      - Led proxy infrastructure uplift: migrated proxies to Ubuntu 22.04, consolidated Squid proxy configs.
+
   - company: "Akamai Technologies, Inc."
     position: "Site Reliability Engineer (Intern)"
     duration: "January 2022 - June 2022"
     exp_time: 0.5 # years of experience
     responsibilities:
-      - Automated infrastructure provisioning, monitoring, and incident response using Ansible, Terraform, Prometheus, and Python, 
-      - optimizing workflows and improving system reliability, leading to a full-time offer.
+      - Automated infrastructure provisioning, monitoring, and incident response using Ansible, Terraform, Prometheus, and Python, leading to a full-time offer.
       - Contributed to auto-remediation workflows, minimizing downtime and enhancing system resilience.
-      - Worked closely with cross-functional teams to optimize system performance and reliability.
+      - Developed Python automation scripts for Netbox: cleansed unassigned IPs, integrated with DNS, expanded for multi-region support, and improved data validation.
+      - Supported migration and modernization of Ansible roles, supporting new environments and cross-team knowledge sharing.
+      - Supported BAU and incident response, troubleshooting and resolving access and deployment issues.
 
 projects:
   - name: "ClipForge - AI-Driven Video Processing Pipeline"
@@ -120,14 +134,11 @@ projects:
       - Designed and developed an automated video generation pipeline using Python, WhisperX, and FFmpeg, enabling AI-powered short video creation.
       - Integrated GPU acceleration to enhance processing speed, reducing transcription and rendering time.
       - Implemented automated metadata generation for SEO optimization using AI-based text processing.
-      - Developed a Dockerized deployment workflow, ensuring portability and seamless execution across environments.
-      - Built CI/CD pipelines for automated builds, testing, and deployment, improving development efficiency.
-      - Integrated Discord notifications for real-time updates on video processing and completion.
-      - Developed an open-source, fully local Shorts automation tool, eliminating the need for cloud services or subscriptions.
-      - Engineered a Python-based pipeline using WhisperX, MoviePy, and FLUX AI to automate script-to-video generation.
-      - Implemented AI-driven metadata generation with an LLM, optimizing titles, descriptions, and tags for better SEO.
-      - Designed GPU-accelerated processing, reducing video creation time significantly.
-      - Built a modular architecture allowing users to customize and extend functionality.
+      - Developed a Dockerized deployment workflow for portability and seamless execution.
+      - Built CI/CD pipelines for automated builds, testing, and deployment.
+      - Integrated Discord notifications for real-time updates.
+      - Developed an open-source, fully local Shorts automation tool, eliminating the need for cloud services.
+      - Engineered a modular, GPU-accelerated pipeline using WhisperX, MoviePy, and FLUX AI for script-to-video generation.
       - Gained 77K+ views on Reddit, sparking engagement among developers and content creators.
 
 education:
@@ -146,3 +157,111 @@ extras:
     link: "https://ieeexplore.ieee.org/document/9865797"
     description:
       - Team Leader, We were responsible for creating the final circuitry design and performing advanced simulations for the Image sensor. The paper is meant to serve as the basis for improvements in this miniature medical imaging technology.
+      - Led a cross-functional research team, coordinated circuit design and simulation, and published innovative work on low-power medical imaging technology (4.8mW).
+
+competencies:
+  - name: "Nimble Learning"
+    value: "Towering Strength"
+    description: >
+      Rapidly acquires and applies new technical skills to complex, high-impact projects. Embraces experimentation and continuous improvement, using both successes and failures as learning opportunities. Recognized for adaptability and growth mindset, especially in adopting new tools (Ansible, Docker, Loki, etc.).
+  - name: "Cultivates Innovation"
+    value: "Talented"
+    description: >
+      Consistently introduces new automation, monitoring, and logging solutions, driving operational improvements, cost reductions, and system resilience. Recognized for creative problem-solving and willingness to challenge the status quo.
+  - name: "Ensures Accountability"
+    value: "Skilled"
+    description: >
+      Demonstrates ownership, follows through on commitments, and proactively resolves blockers. Establishes clear processes, feedback loops, and maintains high-quality, timely delivery across multiple concurrent projects.
+  - name: "Collaboration & Empathy"
+    value: "Talented"
+    description: >
+      Builds strong cross-team relationships, mentors peers, and leads knowledge sharing through workshops and documentation. Recognized for approachability, empathy, and effective communication across diverse teams and time zones.
+  - name: "Interpersonal Savvy"
+    value: "Skilled"
+    description: >
+      Relates comfortably with people across levels, functions, cultures, and geographies. Acts with diplomacy and tact, builds rapport, and manages conflict constructively.
+  - name: "Situational Adaptability"
+    value: "Skilled"
+    description: >
+      Adapts to changing priorities, organizational shifts, and new environments while maintaining focus and delivering results. Continuously improves in real time to match shifting demands.
+
+recognition:
+  - "Consistently recognized as a top performer, maintaining an average annual rating of 4.5/5, and trusted to lead critical, cross-functional projects."
+  - "Praised by managers and second-level leaders for technical depth, ownership, and influence; instrumental in automation strategy and platform operations."
+  - "Regularly acknowledged for mentoring, documentation, and driving operational excellence across global teams."
+  - "Commended for cross-team collaboration and support, including late-night demos for global teams and proactive incident response."
+  - "Subject matter expert in DNS, monitoring, and automation, and recognized for enabling successful migrations and upgrades with zero downtime."
+  - "Entrusted to lead high-visibility projects and mentor peers, with strong endorsements from managers and senior leadership."
+
+performance_objectives:
+  - year: 2024
+    objectives:
+      - name: "DE to VDC logging migration"
+        description: >
+          Consolidated logging across all DE sites, engineered syslog-ng pipelines with failover, deployed aggregator VDC log servers, and ensured robust monitoring with Grafana dashboards and Telegraf integration. Achieved reliable, high-throughput log delivery (2000+ messages/sec, 200ms latency tolerance), optimized storage with cleanup jobs, and resolved cross-region log transmission issues.
+        rating: "Consistently Exceeds"
+        weight: 50
+      - name: "Investigate Cloud Observability Infrastructure"
+        description: >
+          Integrated and automated cloud-native observability (Loki, Logstash plugin), documented message rates and system performance, and built reproducible migration paths for future observability upgrades. Enabled real-time log ingestion into Grafana and enhanced alerting.
+        rating: "Successfully Meets"
+        weight: 30
+      - name: "Monitoring Upgrade and Improvements"
+        description: >
+          Overhauled NagiosXI and OpenSNMP monitoring infrastructure, migrated configs to new repo, added Ubuntu 22.04 support, implemented limited/full host configs, reduced false alerts, and enabled flexible, automated monitoring for 200+ nodes.
+        rating: "Far Exceeds"
+        weight: 50
+      - name: "Elastic-search Cluster Workload Isolation & Cluster Tuning"
+        description: >
+          Upgraded and tuned Elastic clusters (Dev, Staging, EU, APAC), implemented Index Lifecycle Management, optimized resource allocation, and resolved critical incidents (OOM, malformed fields), enabling high availability and improved performance.
+        rating: "Consistently Exceeds"
+        weight: 20
+      - name: "Consolidate, centralise and improve Ansible Automation"
+        description: >
+          Centralized automation by migrating roles/scripts, decommissioned superfluous VMs, created modernized roles, and enabled centralized deployment across all environments, improving operational efficiency and maintainability.
+        rating: "Successfully Meets"
+        weight: 20
+      - name: "Expand and upgrade logging infrastructure"
+        description: >
+          Upgraded ELK stack (6.8 to 7.17), implemented ILM, documented and sized Elastic nodes for high usage, automated upgrade process, and ensured optimal performance and retention for growing workloads.
+        rating: "Consistently Exceeds"
+        weight: 20
+      - name: "Global Operations - support, maintenance and projects work of current production environment (BAU)"
+        description: >
+          Provided BAU support, resolved incidents, led proxy and RSX node migrations, supported Jenkins automation for QA, assisted in P1/P2 incidents, consolidated Squid proxy configs, and mentored NOC, QA, and FO teams.
+        rating: "Far Exceeds"
+        weight: 10
+  - year: 2023
+    objectives:
+      - name: "Improvement to the Authoritative DNS servers"
+        description: >
+          Migrated and enhanced DNS automation: added reverse DNS, Netbox integration, automated scheduling (Rundeck), Slack alerting, and Grafana dashboards. Improved logging, monitoring, and troubleshooting.
+        rating: "Far Exceeds"
+        weight: 20
+      - name: "Build Load Balancers for the Dev environment"
+        description: >
+          Designed and deployed high-availability load balancers (Keepalived, HAProxy), eliminated single points of failure, tested on log and WWW servers, and delivered cross-team demos and tech talks.
+        rating: "Far Exceeds"
+        weight: 15
+      - name: "DMCA CGNAT logs to Analytics pipeline"
+        description: >
+          Engineered end-to-end pipeline: syslog-ng failover, Logstash S3 output, parallel delivery to Elasticsearch and S3, Nagios alerts, and automated mapping templates for compliance and analytics.
+        rating: "Far Exceeds"
+        weight: 20
+      - name: "Automate Deploy of Staging Environment"
+        description: >
+          Automated deployment of Authdns, DCR, DHCP, EML, ECK, Syslog-ng, InfluxDB, and NagiosXI for Staging; created and tested roles, improved monitoring and automation coverage.
+        rating: "Consistently Exceeds"
+        weight: 35
+      - name: "Global Operations - support, maintenance and projects work of current production environment (BAU)"
+        description: >
+          Provided BAU support, resolved incidents, migrated roles, authored documentation, assisted in proxy/RSX/Jenkins migrations, and mentored colleagues.
+        rating: "Successfully Meets"
+        weight: 10
+
+languages:
+  - "English (Fluent)"
+  - "Kannada (Native)"
+  - "Hindi (Professional)"
+
+date_updated: "2025-05-17"
