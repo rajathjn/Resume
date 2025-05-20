@@ -25,7 +25,7 @@ summary: >
   Site Reliability Engineer (SRE) with 3+ years of progressive experience in automation, observability, and infrastructure optimization.
   Built 20+ Ansible roles and orchestrated deployments, leading to significant reductions in manual toil and deployment times.
   Led migrations of 15+ production machines and large-scale logging/monitoring systems (ELK, syslog-ng, NagiosXI), ensuring operational continuity and high availability.
-  Expert in Terraform, Ansible, Prometheus, Grafana, Splunk, and Kubernetes, with a strong focus on scalable, resilient, and self-healing systems.
+  Expert in Terraform, Ansible, Prometheus, Grafana, and Kubernetes, with a strong focus on scalable, resilient, and self-healing systems.
   Recognized as a top performer (avg. rating 4.5/5), trusted to lead high-impact, cross-functional projects, and mentor peers.
   Passionate about automation-first approaches, incident management, and continuous improvement to drive operational excellence.
 
@@ -76,7 +76,7 @@ work_experience:
     exp_time: 0.5 # years of experience
     responsibilities:
       - Led automation initiatives to reduce manual toil, improve incident response, and streamline operational workflows.
-      - Developed and deployed observability solutions using Prometheus, Grafana, and Splunk.
+      - Developed and deployed observability solutions using Prometheus, Grafana.
       - Automated infrastructure provisioning and configuration management with Terraform and Ansible.
       - Optimized CI/CD pipelines, reducing deployment times and increasing release efficiency.
       - Designed and implemented self-healing and auto-remediation workflows, improving system uptime.
@@ -100,7 +100,7 @@ work_experience:
       - Created user-friendly documentation and automation scripts, improving efficiency and reducing downtime by 20%.
       - Reorganized NagiosXI configurations for comprehensive monitoring.
       - Developed Jenkins automation for QA, enabling APN testing across multiple networks and sites.
-      - Enhanced observability frameworks with Prometheus, Grafana, and Splunk.
+      - Enhanced observability frameworks with Prometheus, Grafana.
       - Designed and implemented infrastructure-as-code with Terraform and Ansible.
       - Optimized CI/CD pipelines, reducing deployment times and enhancing stability.
       - Led incident management and auto-remediation efforts, reducing downtime.
