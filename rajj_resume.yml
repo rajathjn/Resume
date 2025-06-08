@@ -80,13 +80,13 @@ work_experience:
       - Automated infrastructure provisioning and configuration management with Terraform and Ansible.
       - Optimized CI/CD pipelines, reducing deployment times and increasing release efficiency.
       - Designed and implemented self-healing and auto-remediation workflows, improving system uptime.
-      - Led DE to VDC logging migration: engineered syslog-ng pipelines with failover, handling 2000+ messages/sec, integrated with Grafana dashboards and Telegraf.
+      - Led DE to VDC logging migration engineered syslog-ng pipelines with failover, handling 2000+ messages/sec, integrated with Grafana dashboards and Telegraf.
       - Architected log server aggregation, implemented cleanup jobs, and ensured reliable log delivery across distributed sites.
       - Investigated and integrated cloud observability solutions (Loki, Logstash plugin), building automation for reproducible migration paths.
       - Upgraded and tuned Elastic Stack clusters, implemented Index Lifecycle Management, optimized resources, and reduced system errors.
-      - Overhauled NagiosXI monitoring: migrated to new repo, added Ubuntu 22.04 support, reduced false alerts, and automated deployment.
+      - Overhauled NagiosXI monitoring migrated to new repo, added Ubuntu 22.04 support, reduced false alerts, and automated deployment.
       - Consolidated and centralized Ansible automation, migrated legacy roles/scripts, and enabled centralized deployment.
-      - Provided BAU support: resolved incidents, led proxy and RSX node migrations, supported Jenkins automation, and collaborated across teams.
+      - Provided BAU support resolved incidents, led proxy and RSX node migrations, supported Jenkins automation, and collaborated across teams.
       - Authored documentation, conducted technical workshops, and mentored peers on automation and monitoring best practices.
       - Recognized for rapid learning, innovation, and cross-team leadership.
 
@@ -107,14 +107,14 @@ work_experience:
       - Developed 10+ Ansible roles for program installation/configuration and automated routing to management nodes.
       - Improved processes with Python and Ansible, optimizing workflow efficiency by 25%.
       - Engineered S3 bucket testing/log delivery and NagiosXI alert systems.
-      - Automated configuration management: developed 20+ Ansible roles, reducing deployment errors and rollout time.
+      - Automated configuration management developed 20+ Ansible roles, reducing deployment errors and rollout time.
       - Led complex migrations of ELK clusters and logging servers, maintaining service availability.
       - Designed and deployed high-availability load balancers (Keepalived, HAProxy).
-      - Engineered DMCA CGNAT logs-to-analytics pipeline: automated log parsing and delivery to S3 and Elasticsearch.
-      - Enhanced monitoring for 200+ nodes: implemented hierarchical alerting, reduced false positives by 70%.
+      - Engineered DMCA CGNAT logs-to-analytics pipeline automated log parsing and delivery to S3 and Elasticsearch.
+      - Enhanced monitoring for 200+ nodes implemented hierarchical alerting, reduced false positives by 70%.
       - Authored documentation and led technical workshops, reducing deployment-related incidents by 40%.
-      - Upgraded and migrated authoritative DNS automation: added reverse DNS, Netbox integration, Rundeck scheduling, Slack alerting, and Grafana dashboards.
-      - Led proxy infrastructure uplift: migrated proxies to Ubuntu 22.04, consolidated Squid proxy configs.
+      - Upgraded and migrated authoritative DNS automation added reverse DNS, Netbox integration, Rundeck scheduling, Slack alerting, and Grafana dashboards.
+      - Led proxy infrastructure uplift migrated proxies to Ubuntu 22.04, consolidated Squid proxy configs.
 
   - company: "Akamai Technologies, Inc."
     position: "Site Reliability Engineer (Intern)"
@@ -123,7 +123,7 @@ work_experience:
     responsibilities:
       - Automated infrastructure provisioning, monitoring, and incident response using Ansible, Terraform, Prometheus, and Python, leading to a full-time offer.
       - Contributed to auto-remediation workflows, minimizing downtime and enhancing system resilience.
-      - Developed Python automation scripts for Netbox: cleansed unassigned IPs, integrated with DNS, expanded for multi-region support, and improved data validation.
+      - Developed Python automation scripts for Netbox cleansed unassigned IPs, integrated with DNS, expanded for multi-region support, and improved data validation.
       - Supported migration and modernization of Ansible roles, supporting new environments and cross-team knowledge sharing.
       - Supported BAU and incident response, troubleshooting and resolving access and deployment issues.
 
