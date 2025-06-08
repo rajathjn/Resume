@@ -1,0 +1,69 @@
+% Project:  TeX Cover Letter Template
+% Author:   Sid Lacy
+
+% EDIT info.tex, body.tex
+
+\documentclass[12pt]{letter}
+\usepackage[utf8]{inputenc}
+\usepackage[empty]{fullpage}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+\usepackage{fontawesome5}
+\usepackage{eso-pic}
+\usepackage{charter}
+
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
+\definecolor{gr}{RGB}{225,225,225}
+
+\begin{document}
+
+% Shaded header banner
+\AddToShipoutPictureBG{%
+\color{gr}
+\AtPageUpperLeft{\rule[-1.3in]{\paperwidth}{1.3in}}
+}
+
+% Header
+\begin{center}
+{\fontsize{28}{0}\selectfont\scshape Rajath Jaiprakash}
+
+\href{mailto:rajathjnx@gmail.com}{\faEnvelope\enspace rajathjnx@gmail.com}\hfill
+\href{https://linkedin.com/in/rajath-jaiprakash}{\faLinkedinIn\enspace linkedin.com/in/rajath-jaiprakash}\hfill
+\href{tel:9900852849}{\faPhone\enspace 9900852849}
+\end{center}
+
+\vspace{0.2in}
+
+% Opening block
+\today\\
+
+%\vspace{-0.1in}Hiring Manager\\
+Bangalore, Karnataka \\
+
+\vspace{-0.1in}Dear Hiring Manager,\\
+
+% Body
+\vspace{-0.1in}\setlength\parindent{24pt}
+I am excited to submit my application for the Site Reliability Engineer position. With over three years of specialised experience at Akamai Technologies, I have built a proven track record of driving automation, reliability, and operational excellence in large-scale, mission-critical environments directly aligning with your team's focus on modernising complex systems and championing SRE best practices.
+
+In my current role as Site Reliability Engineer II, I have led multiple cross-functional initiatives to automate infrastructure provisioning, optimize CI/CD pipelines, and deploy robust observability solutions. My work has resulted in a 50\% reduction in manual operations, a 75\% improvement in deployment times, and a 30\% reduction in system downtime. I have hands-on expertise in Python, Linux shell scripting, and configuration management with Ansible as well as deep experience with monitoring and telemetry tools including Otel, Grafana, and ELK Stack.
+
+I am eager to bring my automation-first mindset, technical depth, and collaborative spirit to your SRE team, helping to ensure the availability, reliability, and scalability of your platforms.
+
+Thank you for considering my application.
+
+% Closer
+\vspace{0.1in}
+\vfill
+
+\begin{flushright}
+Best Regards,
+
+\vspace{-0.1in}\includegraphics[width=1.5in]{Signature.png}\vspace{-0.1in}
+
+Rajath Jaiprakash\\
+Site Reliability Engineer 2
+\end{flushright}
+
+\end{document}
